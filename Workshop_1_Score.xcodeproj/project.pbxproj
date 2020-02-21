@@ -9,46 +9,25 @@
 /* Begin PBXBuildFile section */
 		3CDCA02524003D3800058D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCA02424003D3800058D1A /* AppDelegate.swift */; };
 		3CDCA02724003D3800058D1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCA02624003D3800058D1A /* SceneDelegate.swift */; };
-		3CDCA02924003D3800058D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCA02824003D3800058D1A /* ViewController.swift */; };
 		3CDCA02C24003D3800058D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCA02A24003D3800058D1A /* Main.storyboard */; };
 		3CDCA02E24003D3900058D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCA02D24003D3900058D1A /* Assets.xcassets */; };
 		3CDCA03124003D3900058D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCA02F24003D3900058D1A /* LaunchScreen.storyboard */; };
-		3CDCA03C24003D3900058D1A /* Workshop_1_ScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCA03B24003D3900058D1A /* Workshop_1_ScoreTests.swift */; };
+		3CDCA0522400491A00058D1A /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCA0512400491A00058D1A /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3CDCA03824003D3900058D1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CDCA01924003D3700058D1A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3CDCA02024003D3800058D1A;
-			remoteInfo = Workshop_1_Score;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3CDCA02124003D3800058D1A /* Workshop_1_Score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workshop_1_Score.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDCA02424003D3800058D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CDCA02624003D3800058D1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CDCA02824003D3800058D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CDCA02B24003D3800058D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CDCA02D24003D3900058D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CDCA03024003D3900058D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CDCA03224003D3900058D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CDCA03724003D3900058D1A /* Workshop_1_ScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Workshop_1_ScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CDCA03B24003D3900058D1A /* Workshop_1_ScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workshop_1_ScoreTests.swift; sourceTree = "<group>"; };
-		3CDCA03D24003D3900058D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDCA0512400491A00058D1A /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3CDCA01E24003D3800058D1A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CDCA03424003D3900058D1A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				3CDCA02324003D3800058D1A /* Workshop_1_Score */,
-				3CDCA03A24003D3900058D1A /* Workshop_1_ScoreTests */,
 				3CDCA02224003D3800058D1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				3CDCA02124003D3800058D1A /* Workshop_1_Score.app */,
-				3CDCA03724003D3900058D1A /* Workshop_1_ScoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,24 +56,39 @@
 		3CDCA02324003D3800058D1A /* Workshop_1_Score */ = {
 			isa = PBXGroup;
 			children = (
-				3CDCA02424003D3800058D1A /* AppDelegate.swift */,
-				3CDCA02624003D3800058D1A /* SceneDelegate.swift */,
-				3CDCA02824003D3800058D1A /* ViewController.swift */,
-				3CDCA02A24003D3800058D1A /* Main.storyboard */,
+				3CDCA04A24003DAB00058D1A /* Storyboards */,
+				3CDCA04924003D8700058D1A /* AppDelegate */,
+				3CDCA04824003D7F00058D1A /* Controllers */,
 				3CDCA02D24003D3900058D1A /* Assets.xcassets */,
-				3CDCA02F24003D3900058D1A /* LaunchScreen.storyboard */,
 				3CDCA03224003D3900058D1A /* Info.plist */,
 			);
 			path = Workshop_1_Score;
 			sourceTree = "<group>";
 		};
-		3CDCA03A24003D3900058D1A /* Workshop_1_ScoreTests */ = {
+		3CDCA04824003D7F00058D1A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3CDCA03B24003D3900058D1A /* Workshop_1_ScoreTests.swift */,
-				3CDCA03D24003D3900058D1A /* Info.plist */,
+				3CDCA0512400491A00058D1A /* ScoreViewController.swift */,
 			);
-			path = Workshop_1_ScoreTests;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3CDCA04924003D8700058D1A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCA02424003D3800058D1A /* AppDelegate.swift */,
+				3CDCA02624003D3800058D1A /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3CDCA04A24003DAB00058D1A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCA02A24003D3800058D1A /* Main.storyboard */,
+				3CDCA02F24003D3900058D1A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,24 +111,6 @@
 			productReference = 3CDCA02124003D3800058D1A /* Workshop_1_Score.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3CDCA03624003D3900058D1A /* Workshop_1_ScoreTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3CDCA04324003D3900058D1A /* Build configuration list for PBXNativeTarget "Workshop_1_ScoreTests" */;
-			buildPhases = (
-				3CDCA03324003D3900058D1A /* Sources */,
-				3CDCA03424003D3900058D1A /* Frameworks */,
-				3CDCA03524003D3900058D1A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3CDCA03924003D3900058D1A /* PBXTargetDependency */,
-			);
-			name = Workshop_1_ScoreTests;
-			productName = Workshop_1_ScoreTests;
-			productReference = 3CDCA03724003D3900058D1A /* Workshop_1_ScoreTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,10 +123,6 @@
 				TargetAttributes = {
 					3CDCA02024003D3800058D1A = {
 						CreatedOnToolsVersion = 11.3.1;
-					};
-					3CDCA03624003D3900058D1A = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 3CDCA02024003D3800058D1A;
 					};
 				};
 			};
@@ -170,7 +140,6 @@
 			projectRoot = "";
 			targets = (
 				3CDCA02024003D3800058D1A /* Workshop_1_Score */,
-				3CDCA03624003D3900058D1A /* Workshop_1_ScoreTests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,13 +155,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CDCA03524003D3900058D1A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -200,29 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CDCA02924003D3800058D1A /* ViewController.swift in Sources */,
 				3CDCA02524003D3800058D1A /* AppDelegate.swift in Sources */,
 				3CDCA02724003D3800058D1A /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CDCA03324003D3900058D1A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CDCA03C24003D3900058D1A /* Workshop_1_ScoreTests.swift in Sources */,
+				3CDCA0522400491A00058D1A /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3CDCA03924003D3900058D1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3CDCA02024003D3800058D1A /* Workshop_1_Score */;
-			targetProxy = 3CDCA03824003D3900058D1A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3CDCA02A24003D3800058D1A /* Main.storyboard */ = {
@@ -394,50 +340,6 @@
 			};
 			name = Release;
 		};
-		3CDCA04424003D3900058D1A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9BLV596STG;
-				INFOPLIST_FILE = Workshop_1_ScoreTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mdt.Workshop-1-ScoreTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workshop_1_Score.app/Workshop_1_Score";
-			};
-			name = Debug;
-		};
-		3CDCA04524003D3900058D1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9BLV596STG;
-				INFOPLIST_FILE = Workshop_1_ScoreTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mdt.Workshop-1-ScoreTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workshop_1_Score.app/Workshop_1_Score";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,15 +357,6 @@
 			buildConfigurations = (
 				3CDCA04124003D3900058D1A /* Debug */,
 				3CDCA04224003D3900058D1A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3CDCA04324003D3900058D1A /* Build configuration list for PBXNativeTarget "Workshop_1_ScoreTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3CDCA04424003D3900058D1A /* Debug */,
-				3CDCA04524003D3900058D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
