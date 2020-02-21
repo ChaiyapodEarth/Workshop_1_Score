@@ -58,6 +58,9 @@
                                 <state key="normal" title="ตัดเกรด">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="convertScoreToGradeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bpe-UI-KRa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -72,6 +75,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="ตัดเกรดนักศึกษาวิชา MDT112" id="aP8-Ty-1un"/>
+                    <connections>
+                        <outlet property="gradeTextField" destination="q1j-X8-Ha3" id="D8h-s8-lsE"/>
+                        <outlet property="scoreTextField" destination="oma-V7-kyV" id="D0v-eY-TE7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
