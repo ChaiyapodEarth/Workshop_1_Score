@@ -21,6 +21,7 @@ class ScoreViewController: UIViewController {
         guard let number = scoreTextField.text
             else{
                 return mdttftyfytfytfytfytf
+                aaaaaaa
         }
         
     }
