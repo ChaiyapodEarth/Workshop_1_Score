@@ -19,9 +19,10 @@ class ScoreViewController: UIViewController {
     
     @IBAction func convertScoreToGradeTapped(_ sender: Any?) {
         guard let number = scoreTextField.text
-            else{ sfsdfsdf
+            else{
                 return
         }
+        
     }
     
 }
